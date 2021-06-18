@@ -1,0 +1,11 @@
+{
+    "[typescript]": {
+        // Prettier
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        // ESLint
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    }
+}

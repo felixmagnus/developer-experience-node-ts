@@ -1,0 +1,28 @@
+{
+    "name": "developer-experience-node-ts",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "author": "Felix Magnus",
+    "license": "MIT",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "start:watch": "nodemon src/index.ts",
+        "build": "tsc --project ./",
+        "prettier": "prettier --write src/**/*.ts",
+        "lint": "eslint -c .eslintrc --ext ts src"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.12",
+        "@types/node": "^15.12.2",
+        "@typescript-eslint/eslint-plugin": "^4.26.1",
+        "@typescript-eslint/parser": "^4.26.1",
+        "eslint": "^7.28.0",
+        "nodemon": "^2.0.7",
+        "prettier": "^2.3.1",
+        "ts-node": "^10.0.0",
+        "typescript": "^4.3.2"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
